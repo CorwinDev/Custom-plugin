@@ -1,0 +1,23 @@
+name: Custom
+version: '${project.version}'
+main: nl.corwindev
+api-version: 1.17
+prefix: Custom
+load: STARTUP
+authors: [ Corwin ]
+description: Custom
+website: corwindev.nl
+commands:
+     corwin:
+        description: test
+        usage: /c-test
+     c-reload:
+       description: c-reload
+       usage: /c-reload
+       permission: nl.corwindev.reload
+       permission-message: "You didn't have such perms!"
+     c-test:
+       description: Test some events, to check you configuration!
+       usage: /c-test
+       permission: nl.corwindev.test
+       permission-message: "You didn't have such perms!"

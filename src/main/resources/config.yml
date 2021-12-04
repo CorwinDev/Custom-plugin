@@ -1,0 +1,30 @@
+# Config of Custom-Messages plugin
+
+# You can define a variable with {member}
+# This will be replaced by the Member who's did the event!
+# You can also define colorcodes like: Dark Red: §4
+join:
+  message: "Welcome {member}!!"
+  enabled: true
+leave:
+  message: "Goodbye {member}!!"
+  enabled: true
+#SideBar you can have up to 15 sentences and you can also use colorcodes
+sidebar:
+    sentence1: "Sentence1!!"
+    sentence2: "You can have up to 15 new sentences!!"
+   # sentence3: "sentence3"
+   # sentence4: "sentence4"
+   # sentence5: "sentence5"
+   # sentence6: "sentence6"
+   # sentence7: "sentence7"
+   # sentence8: "sentence8"
+   # sentence9: "sentence9"
+   # sentence10: "sentence10"
+   # sentence11: "sentence11"
+   # sentence12: "sentence12"
+   # sentence13: "sentence13"
+   # sentence14: "sentence14"
+    title: "This a sidebar!"
+    enabled: true
+
